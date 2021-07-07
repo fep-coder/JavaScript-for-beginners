@@ -1,0 +1,1 @@
+let fruits = document.querySelector('ul#fruits');

@@ -1,0 +1,5 @@
+ul#tasks input[type="text"] {
+    border: 0;
+    background: white;
+    cursor: pointer;
+}

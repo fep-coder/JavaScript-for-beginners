@@ -1,0 +1,25 @@
+div.bowl {
+    position: relative;
+    overflow: hidden;
+    padding-top: 170px;
+}
+
+div.bowl > img {
+    position: relative;
+    z-index: 5;
+    background: white;
+}
+
+div.banana {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    bottom: -2000px;
+    transition:all .4s;
+}
+
+div.bowl.show div.banana {
+    position: absolute;
+    bottom: 110px;
+}

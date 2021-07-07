@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <form id="person" name="person" action="/person">
+
+        <p>
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Name">
+        </p>
+
+        <p>
+            <label>Favorite color:</label>
+            <select id="colors" name="colors">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Favorite food:</label><br>
+
+            <input type="checkbox" class="food" name="meat" value="Meat">Meat<br>
+            <input type="checkbox" class="food" name="fruit" value="Fruit">Fruit<br>
+            <input type="checkbox" class="food" name="veggies" value="Veggies">Veggies<br>
+        </p>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+
+        <p>
+            <label>Description:</label><br>
+            <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <label>Cars:</label><br>
+            <select multiple id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </p>
+
+        <button type='submit'>Submit</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
